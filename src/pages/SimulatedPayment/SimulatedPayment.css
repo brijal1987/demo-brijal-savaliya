@@ -1,0 +1,35 @@
+.success {
+    color: green;
+}
+.error {
+    color: red;
+}
+.simulated-payment-container {
+    text-align: center;
+  }
+  
+  .simulated-payment-container p {
+    padding: 10px 30px;
+  }
+  .simulated-payment-container button {
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+    background-color: var(--primary-color);
+    font-weight: 600;
+    margin: 15px 0 0px 0;
+  }
+  
+  .simulated-payment-container button:disabled {
+    color: white;
+    background-color: gray;
+  }
+  .simulated-payment-container button:hover:disabled {
+    color: white;
+    background-color: gray;
+  }
+  .simulated-payment-container button:hover {
+    cursor: pointer;
+    background-color: black;
+  }

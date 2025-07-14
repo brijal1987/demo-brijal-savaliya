@@ -1,0 +1,32 @@
+
+.payment-data-container {
+    padding: 25px;
+  }
+  
+  .payment-data-container > h3 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+.payment-data-details {
+    margin-bottom: 20px;
+  }
+  
+.payment-data-details > * {
+    margin-bottom: 10px;
+  }
+  
+.payment-data-details > * > :first-child {
+    font-weight: 600;
+  }
+.payment-data-details .name {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+  }
+.payment-data-details .email {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+  }
+  
